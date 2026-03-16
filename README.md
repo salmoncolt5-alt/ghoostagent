@@ -49,6 +49,7 @@ It is built with Python 3.11 and core libraries.
 - `lookup [number phone]`
 - `webclone example.com`
 - `dehash [hash] [type]`
+- `phpscan http://target.com`
 - `help`
 - `exit`
 
