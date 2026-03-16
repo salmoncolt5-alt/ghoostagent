@@ -62,7 +62,7 @@ It is built with Python 3.11 and core libraries.
 
 ```bash
 git clone https://github.com/salmoncolt5-alt/ghoostagent
-cd cloud-agent
+cd ghoostagent
 pip install -r requirements.txt
 python main.py
 ```
@@ -71,7 +71,7 @@ python main.py
 
 ```bash
 git clone https://github.com/salmoncolt5-alt/ghoostagent
-cd cloud-agent
+cd ghoostagent
 python3 main.py
 ```
 
