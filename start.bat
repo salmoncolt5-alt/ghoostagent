@@ -1,7 +1,7 @@
 @echo off
-title CloudAgent - Launcher
+title GhoostAgent - Launcher
 echo -------------------------------
-echo  CloudAgent - Start Script
+echo  GhoostAgent - Start Script
 echo -------------------------------
 
 if not exist "venv\" (
