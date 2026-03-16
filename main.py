@@ -23,7 +23,15 @@ for pkg in required:
     try:
         __import__(pkg.replace("-", "_").split("==")[0])
     except ImportError:
-        subprocess.check_call([sys.executable, "-m", "pip", "install", pkg])
+        try:
+            subprocess.check_call([
+                sys.executable, "-m", "pip", "install", pkg, "--break-system-packages"
+            ])
+        except subprocess.CalledProcessError:
+            subprocess.check_call([
+                sys.executable, "-m", "pip", "install", pkg,
+                "--break-system-packages", "--quiet"
+            ])
 
 COMMANDS_PATH = "commands"
 DISCORD_CLIENT_ID = "1478826895989538827"
