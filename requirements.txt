@@ -1,0 +1,6 @@
+requests
+phonenumbers
+mcstatus
+python-nmap
+colorama
+beautifulsoup4
