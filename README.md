@@ -47,6 +47,7 @@ It is built with Python 3.11 and core libraries.
 - `masscanhost [ip,ip] [port-range]`
 - `dnslookup [domain]`
 - `lookup [number phone]`
+- `webclone example.com`
 - `dehash [hash] [type]`
 - `help`
 - `exit`
